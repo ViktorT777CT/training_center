@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'PFDinTextCompPro-XBlack';
+    src: url('../style/fonts/pfdintextcomppro-xblack.eot'); /* IE 9 Compatibility Mode */
+    src: url('../style/fonts/pfdintextcomppro-xblack.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../style/fonts/pfdintextcomppro-xblack.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../style/fonts/pfdintextcomppro-xblack.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../style/fonts/pfdintextcomppro-xblack.ttf') format('truetype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'PFDinTextPro-Regular';
+    src: url('../style/fonts/pfdintextpro-regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('../style/fonts/pfdintextpro-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../style/fonts/pfdintextpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../style/fonts/pfdintextpro-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../style/fonts/pfdintextpro-regular.ttf') format('truetype') /* Safari, Android, iOS */
+}
