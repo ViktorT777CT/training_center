@@ -683,6 +683,7 @@ nav ul li a {
 /*----------------footer----------------------------------*/
 .footer{
     margin-top: 90px;
+    margin-bottom: 32px;
 }
 .footer__top-block{
     display: flex;
@@ -1030,6 +1031,9 @@ nav ul li a {
         max-width: 100%;
     }
     /*----------------footer----------------------------------*/
+    .footer{
+        margin-bottom: 24px;
+    }
     .footer__top-block{
         flex-direction: column;
         gap: 15px;
@@ -1237,6 +1241,9 @@ nav ul li a {
         line-height: 40px;
     }
     /*----------------footer----------------------------------*/
+    .footer{
+        margin-bottom: 16px;
+    }
     .footer__top-address{
         justify-content: start;
     }
