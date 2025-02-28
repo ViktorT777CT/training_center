@@ -1,52 +1,52 @@
 
+@font-face {
+    font-family: 'PFDinTextPro-Regular';
+    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.ttf') format('truetype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'PFDinTextCompPro-Medium';
+    src: url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.eot'); /* IE 9 Compatibility Mode */
+    src: url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.ttf') format('truetype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'PFDinTextPro-Bold';
+    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.ttf') format('truetype') /* Safari, Android, iOS */
+}
 /*@font-face {
     font-family: 'PFDinTextPro-Regular';
-    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.eot'); !* IE 9 Compatibility Mode *!
-    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.eot?#iefix') format('embedded-opentype'), !* IE < 9 *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.woff2') format('woff2'), !* Super Modern Browsers *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.woff') format('woff'), !* Firefox >= 3.6, any other modern browser *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextpro-regular.ttf') format('truetype') !* Safari, Android, iOS *!
+    src: url('../style/fonts/pfdintextpro-regular.eot'); !* IE 9 Compatibility Mode *!
+    src: url('../style/fonts/pfdintextpro-regular.eot?#iefix') format('embedded-opentype'), !* IE < 9 *!
+    url('../style/fonts/pfdintextpro-regular.woff2') format('woff2'), !* Super Modern Browsers *!
+    url('../style/fonts/pfdintextpro-regular.woff') format('woff'), !* Firefox >= 3.6, any other modern browser *!
+    url('../style/fonts/pfdintextpro-regular.ttf') format('truetype') !* Safari, Android, iOS *!
 }
 @font-face {
     font-family: 'PFDinTextCompPro-Medium';
-    src: url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.eot'); !* IE 9 Compatibility Mode *!
-    src: url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.eot?#iefix') format('embedded-opentype'), !* IE < 9 *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.woff2') format('woff2'), !* Super Modern Browsers *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.woff') format('woff'), !* Firefox >= 3.6, any other modern browser *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextcomppro-medium.ttf') format('truetype') !* Safari, Android, iOS *!
+    src: url('../style/fonts/pfdintextcomppro-medium.eot'); !* IE 9 Compatibility Mode *!
+    src: url('../style/fonts/pfdintextcomppro-medium.eot?#iefix') format('embedded-opentype'), !* IE < 9 *!
+    url('../style/fonts/pfdintextcomppro-medium.woff2') format('woff2'), !* Super Modern Browsers *!
+    url('../style/fonts/pfdintextcomppro-medium.woff') format('woff'), !* Firefox >= 3.6, any other modern browser *!
+    url('../style/fonts/pfdintextcomppro-medium.ttf') format('truetype') !* Safari, Android, iOS *!
 }
 @font-face {
     font-family: 'PFDinTextPro-Bold';
-    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.eot'); !* IE 9 Compatibility Mode *!
-    src: url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.eot?#iefix') format('embedded-opentype'), !* IE < 9 *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.woff2') format('woff2'), !* Super Modern Browsers *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.woff') format('woff'), !* Firefox >= 3.6, any other modern browser *!
-    url('../TRAINING_CENTER/style/fonts/pfdintextpro-bold.ttf') format('truetype') !* Safari, Android, iOS *!
+    src: url('../style/fonts/pfdintextpro-bold.eot'); !* IE 9 Compatibility Mode *!
+    src: url('../style/fonts/pfdintextpro-bold.eot?#iefix') format('embedded-opentype'), !* IE < 9 *!
+    url('../style/fonts/pfdintextpro-bold.woff2') format('woff2'), !* Super Modern Browsers *!
+    url('../style/fonts/pfdintextpro-bold.woff') format('woff'), !* Firefox >= 3.6, any other modern browser *!
+    url('../style/fonts/pfdintextpro-bold.ttf') format('truetype') !* Safari, Android, iOS *!
 }*/
-@font-face {
-    font-family: 'PFDinTextPro-Regular';
-    src: url('../style/fonts/pfdintextpro-regular.eot'); /* IE 9 Compatibility Mode */
-    src: url('../style/fonts/pfdintextpro-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-    url('../style/fonts/pfdintextpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../style/fonts/pfdintextpro-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-    url('../style/fonts/pfdintextpro-regular.ttf') format('truetype') /* Safari, Android, iOS */
-}
-@font-face {
-    font-family: 'PFDinTextCompPro-Medium';
-    src: url('../style/fonts/pfdintextcomppro-medium.eot'); /* IE 9 Compatibility Mode */
-    src: url('../style/fonts/pfdintextcomppro-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-    url('../style/fonts/pfdintextcomppro-medium.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../style/fonts/pfdintextcomppro-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-    url('../style/fonts/pfdintextcomppro-medium.ttf') format('truetype') /* Safari, Android, iOS */
-}
-@font-face {
-    font-family: 'PFDinTextPro-Bold';
-    src: url('../style/fonts/pfdintextpro-bold.eot'); /* IE 9 Compatibility Mode */
-    src: url('../style/fonts/pfdintextpro-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-    url('../style/fonts/pfdintextpro-bold.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../style/fonts/pfdintextpro-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-    url('../style/fonts/pfdintextpro-bold.ttf') format('truetype') /* Safari, Android, iOS */
-}
 html{
     scroll-behavior: smooth;
 }
@@ -84,8 +84,35 @@ h1, h2, h3{
 section{
     position: relative;
 }
+.content h1{
+    font-family: "PFDinTextCompPro-Medium", sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    margin: 48px 0;
 
-
+}
+/*----------------breadcrumbs----------------------------------*/
+.breadcrumbs ul{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0;
+}
+.breadcrumbs ul li {
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 40%;
+}
+.breadcrumbs ul li a:hover{
+    color: #F0BE32;
+    text-decoration: underline;
+}
+.d__none{
+    display: none!important;
+}
 /*----------------header----------------------------------*/
 
 .header__nav {
@@ -761,6 +788,30 @@ nav ul li a {
     text-decoration: underline;
     color: #F0BE32;
 }
+/*----------------information__block----------------------------------*/
+.information__block{
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #D2DAE1;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+.information__block p{
+    margin: 0;
+}
+.information__block_name{
+    flex: 1;
+}
+.information__block_description{
+    flex: 2;
+}
+.information__block_name p{
+    font-style: italic;
+}
+.content a:hover{
+    text-decoration: underline;
+    color: #F0BE32;
+}
 @media screen and (max-width: 1280px){
     .wrap{
         padding: 0 30px;
@@ -1042,6 +1093,15 @@ nav ul li a {
         flex-direction: column;
         gap: 16px;
     }
+    /*----------------breadcrumbs----------------------------------*/
+    .breadcrumbs ul li {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .content h1{
+        font-size: 48px;
+        line-height: 48px;
+    }
 }
 @media screen and (max-width: 700px ){
     .first__block-img{
@@ -1277,6 +1337,25 @@ nav ul li a {
     .footer__bottom{
         flex-direction: column;
         align-items: start;
+    }
+    /*----------------breadcrumbs----------------------------------*/
+    .breadcrumbs ul li {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .content h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin: 24px 0;
+    }
+    .information__block{
+        flex-direction: column;
+        margin-top: 24px;
+        padding-bottom: 24px;
+        gap: 12px;
+    }
+    .information__block_name p{
+        opacity: 40%;
     }
 }
 @media screen and (max-width: 359px){
