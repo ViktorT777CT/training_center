@@ -138,14 +138,19 @@
 <main>
     <div class="wrap breadcrumbs">
 
-        <ul itemscope="" itemtype="https://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
-                <a itemprop="item" aria-label="breadcrumbs" href="#"><span class="d__none" itemprop="name">Главная</span></a>
-                <a class="" href="#">Главная</a>&nbsp; &nbsp; —
+        <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem">
+                <a  itemprop="item" class="" href="#">
+                    <span itemprop="name">Главная</span>
+                    </a>
+                <meta itemprop="position" content="1" />&nbsp; —
             </li>
-            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem" class="">
-                <a itemprop="item" class="d-none" aria-label="breadcrumbs" href="#"></a>
+            <li itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem" >
+
                 <span itemprop="name">Основные сведения</span>
+                <meta itemprop="position" content="2" />
             </li>
         </ul>
     </div>
@@ -153,13 +158,13 @@
     <section class="content">
         <div class="wrap">
             <h1>Основные сведения</h1>
-            <div>
+            <div itemscope  class="information__wrap">
                 <div class="information__block">
                     <div class="information__block_name">
                         <p>Полное наименование</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
+                        <p itemprop="fullName">
                             Акционерное общество «Южное
                             научно-производственное объединение по морским геологоразведочным работам»
                         </p>
@@ -169,7 +174,7 @@
                     <div class="information__block_name">
                         <p>Сокращенное наименование</p>
                     </div>
-                    <div class="information__block_description">
+                    <div itemprop="shortName" class="information__block_description">
                         <p>
                             АО «ЮЖМОРГЕОЛОГИЯ»
                         </p>
@@ -180,8 +185,8 @@
                         <p>Дата создания образовательной организации</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
-                            10.01.2018 г. Приказ Акционерного общества «Южное научно-производственное
+                        <p >
+                            <span itemprop="regDate">10.01.2018</span> г. Приказ Акционерного общества «Южное научно-производственное
                             объединение по морским геологоразведочным работам» № 20-а о создании
                             учебно-методического центра дополнительного профессионального
                             образования «Безопасность морских технологий» (УМЦ ДПО «БМТ»)
@@ -193,7 +198,7 @@
                         <p>Учредитель (учредители) образовательной организации</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
+                        <p itemprop="nameUchred">
                             АО «ЮЖМОРГЕОЛОГИЯ»
                         </p>
                     </div>
@@ -203,7 +208,7 @@
                         <p>Место нахождения образовательной организации</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
+                        <p itemprop="address">
                             353461, Российская Федерация, Краснодарский
                             край, г. Геленджик, ул. Крымская, 20
                         </p>
@@ -214,7 +219,7 @@
                         <p>Режим и график работы</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
+                        <p itemprop="workTime">
                             Пн-Чт: с 8:30 до 17:42; Пт: с 8:30 до 16:42
                             (перерыв с 12:30 до 13:30); Сб, Вс — выходной;
                         </p>
@@ -225,7 +230,7 @@
                         <p>Контактные телефоны</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
+                        <p itemprop="telephone">
                             +7(86141)9-45-73
                         </p>
                     </div>
@@ -235,7 +240,7 @@
                         <p>E-mai</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
+                        <p itemprop="email">
                             ButkachRM@rusgeology.ru
                         </p>
                     </div>
@@ -246,7 +251,7 @@
                     </div>
                     <div class="information__block_description">
                         <p>
-                            <a href="https://rusgeology.ru/subdivision/bmt/">https://rusgeology.ru/subdivision/bmt/</a>
+                            <a itemprop="email" href="https://rusgeology.ru/subdivision/bmt/">https://rusgeology.ru/subdivision/bmt/</a>
 
                         </p>
                     </div>
@@ -256,7 +261,7 @@
                         <p>Место осуществления образовательной деятельности</p>
                     </div>
                     <div class="information__block_description">
-                        <p>
+                        <p itemprop="addressPlaceOpp">
                             г.Геленджик, Коымская, 20
                         </p>
                     </div>
